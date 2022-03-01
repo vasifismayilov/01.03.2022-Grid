@@ -1,0 +1,422 @@
+/* HEADER START */
+
+.header{
+    padding: 15px;
+}
+
+.header .menu li a{
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    color: black;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.header .col-10 .home{
+    color: #64BAFC;
+}
+
+/* HEADER END */
+/* ============= */
+/* PHILIP SECTION START */
+
+.philip{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.philip .philip-text{
+    padding-top: 30%;
+}
+
+.philip .philip-text p{
+     font-size: 15px;
+     font-weight: 500;
+}
+
+.philip .philip-text h1{
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.philip .philip-text a{
+    text-decoration: none;
+    position: absolute;
+    color: white;
+    top: 55%;
+    padding: 12px 20px;
+    transition: 0.3s ease-in-out;
+    background: -webkit-linear-gradient(0deg,#8490ff 0%,#62bdfc 100%);
+}
+
+.philip .philip-text a:hover{
+    /* border: 1px solid; */
+    /* padding: 10px; */
+    box-shadow: 10px 8px 10px #bdc4ff;
+}
+
+/* PHILIP SECTION END */
+/* ================== */
+/* ABOUT SECTION START */
+
+.about{
+    width: 100%;
+    height: 90vh;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.about .boxes{
+    padding: 70px 0 0 60px;
+}
+
+.about .boxes .text a{
+    text-decoration: none;
+    position: absolute;
+    margin-top: 30px;
+    padding: 15px 20px;
+    background: -webkit-linear-gradient(0deg,#8490ff 0%,#62bdfc 100%);
+    color: white;
+
+}
+
+.about .boxes .text{
+    padding-top: 60px;
+}
+
+.about .boxes .text h3{
+    padding-bottom: 20px;
+}
+
+.about .boxes .text h1{
+    font-size: 35px;
+    padding-bottom: 20px;
+}
+
+/* ABOUT SECTION END */
+/* ================== */
+/* SERVICES SECTION START */
+
+.services{
+    width: 100%;
+    height: 100vh;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.services .head-text{
+    padding-top: 40px;
+    text-align: center;
+}
+
+.services .head-text h1{
+    font-size: 35px;
+}
+
+.services .head-text h4{
+    font-weight: 200;
+    margin-top: 20px;
+}
+
+.services .boxes .box{
+    text-align: center;
+    margin-top: 70px;
+}
+
+.services .boxes .box h2{
+    margin-top: 25px;
+}
+
+.services .boxes .box h5{
+    margin-top: 25px;
+    font-weight: 700;
+}
+
+.services .boxes .box .icon{
+    transition: 0.3s ease-in-out;
+}
+
+.services .boxes .box .icon:hover{
+    color: #8490ff;
+}
+
+/* SERVICES SECTION END */
+/* ==================== */
+/* NUMBERS SECTION START */
+
+.number{
+    width: 100%;
+    height: 30vh;
+    background: -webkit-linear-gradient(0deg,#8490ff 0%,#62bdfc 100%);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.number .dad{
+    padding-top: 70px;
+}
+
+.number .dad .son h1{
+    font-size: 35px;
+    color: white;
+}
+
+.number .dad .son h5{
+    font-weight: 500;
+    color: white;
+
+}
+
+/* NUMBER SECTION END */
+/* ================== */
+/* LATEST SECTION START */
+
+.latest{
+    width: 100%;
+    height: 195vh;
+    background-color: rgb(220, 239, 255);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.latest .text h1{
+    font-size: 38px;
+    padding-top: 120px;
+}
+
+.latest .text h5{
+    font-weight: 500;
+}
+
+.latest .vector .menu{
+    padding-top: 80px;
+}
+
+.latest .menu li{
+    list-style: none;
+    margin-left: 30px;
+    position: relative;
+}
+
+.latest .menu .blue{
+    color: #62bdfc;
+}
+
+.latest .menu li::before{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    left: 0;
+    bottom: -5%;
+    background-color: #62bdfc;
+    transition: 0.3s ease-in-out;
+}
+
+.latest .menu li:hover::before{
+    content: "";
+    position: absolute;
+    width: 40%;
+    height: 2px;
+    left: 0;
+    bottom: -5%;
+    background-color: #00253f;
+}
+
+.latest .images{
+    margin-top: 70px;
+}
+
+.latest .images .img h2{
+    text-align: center;
+
+}
+
+.latest .images .img img{
+    width: 100%;
+}
+
+/* LATEST SECTION END */
+/* ================== */
+/* CLIENT SECTION END */
+
+.client{
+    width: 100%;
+    height: 70vh;
+    background-color: rgb(240, 248, 255);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.client .head-text h1{
+    font-size: 35px;
+    padding-top: 60px;
+}
+
+.client .boxes .box{
+    background-color: white;
+    padding: 50px 10px;
+    margin: 60px 10px 0 0;
+}
+
+/* CLIENT SECTION END */
+/* ================== */
+/* PLAN SECTION START */
+
+.plan{
+    width: 100%;
+    height: 120vh;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.plan .head-text h1{
+    font-size: 50px;
+    padding-top: 50px;
+}
+
+.plan .head-text h5{
+    font-weight: 500;
+    margin-top: 30px;
+}
+
+.plan .boxes .box{
+    background: -webkit-linear-gradient(0deg,#8490ff7e 0%,#62bcfc7e 100%);
+    height: 500px;
+    padding-top: 50px;
+    line-height: 55px;
+    position: relative;  
+    transition: 0.2s ease-in-out;
+    margin-top: 60px;
+}
+
+.plan .boxes .box a{
+    border: 30px solid rgba(118, 132, 250, 0.295);
+    border-radius: 100px;
+    text-decoration: none;
+    font-size: 35px;
+    padding: 15px 20px 15px 20px;
+}
+
+.plan .boxes .box h2{
+    font-size: 30px;
+    margin-top: 25px;
+}
+
+.plan .boxes .box .buy .btn2{
+    position: absolute;
+    padding: 16px 80px;
+    top: 85%;
+    left: 16%;
+    font-weight: 800;
+    opacity: 0;
+}
+
+.plan .boxes .box:hover{
+    background: -webkit-linear-gradient(0deg,#8490ff 0%,#62bcfc 100%);
+    color: white;
+    transform: scale(1.1);
+}
+
+.plan .boxes .box:hover .btn2{
+    opacity: 1;
+}
+
+.plan .boxes .box:hover a{
+    border: 30px solid rgb(181, 188, 248);
+    color: white;
+}
+
+/* PLAN SECTION END */
+/* ================ */
+/* POSTS SECTION START */
+
+.post{
+    width: 100%;
+    height: 100vh;
+    background-color: #f2f3ff;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.post .head-text{
+    text-align: center;
+    padding-top: 120px;
+}
+
+.post .head-text h1{
+    font-size: 35px;
+}
+
+.post .boxes{
+    margin-top: 60px;
+}
+
+.post .boxes .box .like img{
+    width: 20%;
+}
+
+.post .boxes .box .like .text{
+    margin-left: 15px;
+}
+
+.post .boxes .box .like .text h6{
+    margin-left: 15px;
+}
+
+.post .boxes .box .like .text i{
+    margin-left: 15px;
+}
+
+.post .boxes .box .main{
+    object-fit: cover;
+    overflow: hidden;
+}
+.post .boxes .box .main:hover{
+    transform: scale(1.1);
+}
+
+.post .text-box .break{
+    padding-right: 50px;
+}
+
+.post .text-box .break h1:hover{
+    color: #8490ff;
+}
+
+/* POST SECTION END */
+/* ================= */
+/* BRAND SECTION START */
+
+.brand{
+    width: 100%;
+    height: 30vh;
+    background-color: #62bdfc;
+}
+
+.brand .img{
+    padding-top: 80px;
+}
+
+.brand .img img{
+    opacity: 0.5;
+    transition: 0.2s ease-in-out;
+}
+
+.brand .img img:hover{
+    opacity: 1;
+}
+
+/* BRAND SECTION END */
+/* ================== */
+/* FOOTER START */
+
+.follow{
+    width: 100%;
+    background-color: #04091E;
+    height: 300px;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+
+
+
+
